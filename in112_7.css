@@ -1,0 +1,126 @@
+/*Alterações feitas por: Dyego dos Anjos Cordeiro   Turma: IN112    Data: 17/09/2022*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --azul: #456990;
+    --azul-escuro: #114B5F;
+    --branco: #E4FDE1;
+    --rosa: #F45B69;
+    --rosaEscuro: #6B2737;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+body{
+    background-color: var(--rosaEscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#principal{
+    background-color: var(--rosa);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    box-shadow: 0px 16px 50px 20px var(--rosa);
+}
+
+h1{
+    font-size: 3rem;
+    border-bottom: 10px dotted var(--branco);
+}
+
+.conteudo{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.texto{
+    font-size: 1.5rem;
+}
+
+h2{
+    margin-top: 80px;
+    font-size: 3rem;
+}
+
+#t1{
+    font-size: 1.5rem;
+    padding: 0px 40px 50px 40px;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+#t2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--branco);
+}
+
+#t4{
+    border-bottom: 2px solid var(--branco);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 40px;
+    gap: 50px;
+}
+
+#t7{
+    border: 2px solid var(--branco);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    margin: 40px;
+    gap: 50px;
+}
+
+
+img{
+    width: 50%;
+}
+
+#tabeladiv{
+    background-color: var(--branco);
+    color: var(--rosaEscuro);
+    box-shadow: inset 0px 0px 200px 10px var(--rosaEscuro);
+}
+
+th,td{
+    border: 2px solid var(--rosaEscuro);
+    width: 200px;
+    transition: 400ms;
+}
+
+th{
+    width: 100px;
+}
+
+th:hover,td:hover{
+    color: var(--branco);
+    background-color: var(--rosa);
+    width: 400px;
+}
+
